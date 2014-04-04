@@ -1,0 +1,9 @@
+Screens
+
+- Roku screens live on a UI Stack
+
+Different Tasks, Different Screens:
+- roPosterScreen - Single row of data
+- roGridScreen - Multiple rows
+- roParagraphScreen - Text or images.
+- roSearchScreen - Text entry

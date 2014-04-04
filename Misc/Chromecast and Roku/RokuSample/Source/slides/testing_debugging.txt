@@ -1,0 +1,6 @@
+Debugging
+
+- To access the debugging shell:
+Telnet to your Roku's IP address on port 8085
+- Execution will stop when an error occurs or with CTRL-C
+

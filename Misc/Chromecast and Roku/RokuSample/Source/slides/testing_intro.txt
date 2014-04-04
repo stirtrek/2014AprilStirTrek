@@ -1,0 +1,7 @@
+How do we test our Channel?
+
+- To enable development on any Roku, use the Roku remote:
+- Home, Home, Home, Up, Up, Right, Left, Right, Left, Right 
+- You get 30 extra lives.
+- Pick a password for your Roku development.
+- Dev Website available at http://<roku ip address>/

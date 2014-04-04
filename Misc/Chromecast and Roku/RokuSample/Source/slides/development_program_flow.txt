@@ -1,0 +1,7 @@
+Program Flow
+
+- Splash screen is displayed
+
+- Program starts with Sub Main()
+
+- Do precaching before displaying your first screen

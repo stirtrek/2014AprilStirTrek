@@ -1,0 +1,182 @@
+{
+  "categories": [
+    {
+      "title": "About Roku",
+      "slides": [
+        {
+          "ShortDescriptionLine1": "Roku Experience",
+          "ShortDescriptionLine2": "What is it like to own a Roku?",
+          "SDPosterUrl": "pkg:/images/slides/1.jpg",
+          "HDPosterUrl": "pkg:/images/slides/1.jpg",
+          "SlideText": "pkg:/slides/about_experience.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Channels",
+          "ShortDescriptionLine2": "What is a channel?",
+          "SDPosterUrl": "pkg:/images/slides/2.jpg",
+          "HDPosterUrl": "pkg:/images/slides/2.jpg",
+          "SlideText": "pkg:/slides/about_channels.txt"
+        }
+      ]
+    },
+    {
+      "title": "Development",
+      "slides": [
+        {
+          "ShortDescriptionLine1": "Tooling",
+          "ShortDescriptionLine2": "What do you need to get started?",
+          "SDPosterUrl": "pkg:/images/slides/1.jpg",
+          "HDPosterUrl": "pkg:/images/slides/1.jpg",
+          "SlideText": "pkg:/slides/development_tooling.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Channel Structure",
+          "ShortDescriptionLine2": "What goes into a channel?",
+          "SDPosterUrl": "pkg:/images/slides/2.jpg",
+          "HDPosterUrl": "pkg:/images/slides/2.jpg",
+          "SlideText": "pkg:/slides/development_channel_structure.txt"
+        },
+        {
+          "ShortDescriptionLine1": "BrightScript",
+          "ShortDescriptionLine2": "What is BrightScript?",
+          "SDPosterUrl": "pkg:/images/slides/3.jpg",
+          "HDPosterUrl": "pkg:/images/slides/3.jpg",
+          "SlideText": "pkg:/slides/development_brightscript.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Rage Quit",
+          "ShortDescriptionLine2": "",
+          "SDPosterUrl": "pkg:/images/slides/angry-desk-flip.png",
+          "HDPosterUrl": "pkg:/images/slides/angry-desk-flip.png",
+          "SlideImage": "pkg:/images/slides/angry-desk-flip.png"
+        },
+        {
+          "ShortDescriptionLine1": "BrightScript Details",
+          "SDPosterUrl": "pkg:/images/slides/4.jpg",
+          "HDPosterUrl": "pkg:/images/slides/4.jpg",
+          "SlideText": "pkg:/slides/development_brightscript2.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Roku SDK Types",
+          "SDPosterUrl": "pkg:/images/slides/5.jpg",
+          "HDPosterUrl": "pkg:/images/slides/5.jpg",
+          "SlideText": "pkg:/slides/development_roku_sdk_types.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Program Flow",
+          "ShortDescriptionLine2": "How does control flow?",
+          "SDPosterUrl": "pkg:/images/slides/6.jpg",
+          "HDPosterUrl": "pkg:/images/slides/6.jpg",
+          "SlideText": "pkg:/slides/development_program_flow.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Screens",
+          "ShortDescriptionLine2": "How is the UI defined?",
+          "SDPosterUrl": "pkg:/images/slides/7.jpg",
+          "HDPosterUrl": "pkg:/images/slides/7.jpg",
+          "SlideText": "pkg:/slides/development_screens.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Creating Screens",
+          "ShortDescriptionLine2": "How do I create a screen?",
+          "SDPosterUrl": "pkg:/images/slides/1.jpg",
+          "HDPosterUrl": "pkg:/images/slides/1.jpg",
+          "SlideText": "pkg:/slides/development_screens2.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Adding content to a Screen",
+          "SDPosterUrl": "pkg:/images/slides/2.jpg",
+          "HDPosterUrl": "pkg:/images/slides/2.jpg",
+          "SlideText": "pkg:/slides/development_screens3.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Showing the Screen",
+          "ShortDescriptionLine2": "How does the screen get shown?",
+          "SDPosterUrl": "pkg:/images/slides/3.jpg",
+          "HDPosterUrl": "pkg:/images/slides/3.jpg",
+          "SlideText": "pkg:/slides/development_screens4.txt"
+        },
+        {
+          "ShortDescriptionLine1": "User Input",
+          "ShortDescriptionLine2": "How does the user interact with the screen?",
+          "SDPosterUrl": "pkg:/images/slides/4.jpg",
+          "HDPosterUrl": "pkg:/images/slides/4.jpg",
+          "SlideText": "pkg:/slides/development_screens5.txt"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "slides": [
+        {
+          "ShortDescriptionLine1": "Introduction",
+          "ShortDescriptionLine2": "How do we test our Channel?",
+          "SDPosterUrl": "pkg:/images/slides/5.jpg",
+          "HDPosterUrl": "pkg:/images/slides/5.jpg",
+          "SlideText": "pkg:/slides/testing_intro.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Post-Deployment",
+          "ShortDescriptionLine2": "What happens next?",
+          "SDPosterUrl": "pkg:/images/slides/6.jpg",
+          "HDPosterUrl": "pkg:/images/slides/6.jpg",
+          "SlideText": "pkg:/slides/testing_postdeployment.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Debugging",
+          "ShortDescriptionLine2": "It's all gone wrong!",
+          "SDPosterUrl": "pkg:/images/slides/7.jpg",
+          "HDPosterUrl": "pkg:/images/slides/7.jpg",
+          "SlideText": "pkg:/slides/testing_debugging.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Debugging",
+          "ShortDescriptionLine2": "Commands",
+          "SDPosterUrl": "pkg:/images/slides/1.jpg",
+          "HDPosterUrl": "pkg:/images/slides/1.jpg",
+          "SlideText": "pkg:/slides/testing_debugging2.txt"
+        }
+      ]
+    },
+    {
+      "title": "Deployment",
+      "slides": [
+        {
+          "ShortDescriptionLine1": "Options",
+          "ShortDescriptionLine2": "How can we get our channel to users?",
+          "SDPosterUrl": "pkg:/images/slides/1.jpg",
+          "HDPosterUrl": "pkg:/images/slides/1.jpg",
+          "SlideText": "pkg:/slides/deployment_options.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Public Deployment",
+          "ShortDescriptionLine2": "Getting your Channel to the Masses",
+          "SDPosterUrl": "pkg:/images/slides/2.jpg",
+          "HDPosterUrl": "pkg:/images/slides/2.jpg",
+          "SlideText": "pkg:/slides/deployment_public.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Private Deployment",
+          "ShortDescriptionLine2": "For testing or line of business",
+          "SDPosterUrl": "pkg:/images/slides/3.jpg",
+          "HDPosterUrl": "pkg:/images/slides/3.jpg",
+          "SlideText": "pkg:/slides/deployment_private.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Keys",
+          "ShortDescriptionLine2": "Don't lock yourself out",
+          "SDPosterUrl": "pkg:/images/slides/4.jpg",
+          "HDPosterUrl": "pkg:/images/slides/4.jpg",
+          "SlideText": "pkg:/slides/deployment_keys.txt"
+        },
+        {
+          "ShortDescriptionLine1": "Presentation",
+          "ShortDescriptionLine2": "Code for this presentation available online",
+          "SDPosterUrl": "pkg:/images/slides/5.jpg",
+          "HDPosterUrl": "pkg:/images/slides/5.jpg",
+          "SlideText": "pkg:/slides/deployment_presentation.txt"
+        }
+      ]
+    }
+  ]
+}

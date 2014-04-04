@@ -1,0 +1,9 @@
+Creating a Screen
+
+- A screen is created by calling CreateObject.
+- roMessagePort provides user and system events
+
+  messagePort = CreateObject("roMessagePort")
+  screen = CreateObject("roPosterScreen")
+
+  screen.SetMessagePort(messagePort)

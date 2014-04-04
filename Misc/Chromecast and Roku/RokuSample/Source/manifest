@@ -1,0 +1,14 @@
+major_version=1
+minor_version=0
+build_version=1
+title=Roku Development Demo
+subtitle=Information about developing for Roku
+mm_icon_focus_hd=pkg:/images/sky_iron_focus_hd.png
+mm_icon_side_hd=pkg:/images/sky_iron_side_hd.png
+mm_icon_focus_sd=pkg:/images/sky_iron_focus_sd.png
+mm_icon_side_sd=pkg:/images/sky_iron_side_sd.png
+splash_screen_hd=pkg:/images/sky_iron_splash_hd.png
+splash_screen_sd=pkg:/images/sky_iron_splash_hd.png
+splash_color=#A0A0A0
+splash_min_time=1500
+; Make sure the last line ends in a newline or it will not be parsed properly.

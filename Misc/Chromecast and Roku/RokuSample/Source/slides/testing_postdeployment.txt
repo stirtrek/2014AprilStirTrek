@@ -1,0 +1,5 @@
+What happens on deployment?
+
+- Parse Manifest
+- Compile Brightscript
+- Start the Channel
