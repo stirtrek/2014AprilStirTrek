@@ -1,0 +1,9 @@
+Show the Screen
+
+After configuring the screen, display it:
+
+	' Screen Setup
+
+	screen.Show()
+
+- After Show()ing a screen, enter the message loop

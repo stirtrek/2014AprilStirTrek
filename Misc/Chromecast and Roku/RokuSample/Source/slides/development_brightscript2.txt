@@ -1,0 +1,8 @@
+BrightScript Details
+
+- Case insensitive.
+- Uses VB Script's (verbose) flow control syntax.
+- Associative Arrays are frequently used to configure UI elements.
+- Variables do not need to be declared before use.
+- A Sub is a Function without a return value (e.g. it returns Void).
+- All files are compiled together, so you can group functionality however you like.

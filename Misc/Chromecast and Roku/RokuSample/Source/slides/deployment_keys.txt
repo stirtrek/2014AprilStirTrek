@@ -1,0 +1,5 @@
+Signing Keys
+
+Channels are signed with developer keys.  Some items to consider:
+- Archive the first signed version of your channel, along with the password.  
+- Consider generating different keys for different apps.

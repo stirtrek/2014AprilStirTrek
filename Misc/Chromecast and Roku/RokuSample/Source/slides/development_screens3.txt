@@ -1,0 +1,8 @@
+Configuring a Screen
+
+- (Usually) Configured via an associative array or array of associative arrays.
+- Expected elements vary by screen type, e.g. for roPosterScreen
+ShortDescriptionLine1 - Text description of the item
+SDPosterUrl & HDPosterUrl - Image URLs.
+- Screen is configured using SetContentList(array)
+- Non-data screens use discrete method calls.

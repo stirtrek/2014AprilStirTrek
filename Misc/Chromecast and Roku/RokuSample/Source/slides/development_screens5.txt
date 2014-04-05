@@ -1,0 +1,11 @@
+User Input
+
+	While True 
+		message = wait(0, messagePort)
+
+		If message.IsScreenClosed() Then
+			Return
+		Else
+			' React to other types of user input
+		End If
+	End While

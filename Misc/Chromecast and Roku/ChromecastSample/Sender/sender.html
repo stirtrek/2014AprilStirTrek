@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>Simple Chrome Sender App</title>
+</head>
+<body>
+	<p id="ChromecastStatus">No Google Cast&#8482; devices found yet...</p>
+	<button id="Connect">Connect</button>
+
+	<div id="ConnectedControls">
+		<input id="Message" type="text"/> <button id="Send">Send</button>
+	</div>
+
+</body>
+<script type="text/javascript" src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script language="javascript">
+	applicationId = '077F4202';
+	application_namespace = 'urn:x-cast:com.skyironstudio.chromecastexample';
+
+	function receiverListener(e) {
+	  if( e === chrome.cast.ReceiverAvailability.AVAILABLE) {
+	  	$("#ChromecastStatus").html('Google Cast &#8482; Ready');
+	  	$("#Connect").show();
+	  }
+	}
+
+	function sessionListener(s) {
+		$("#ChromecastStatus").text('At least one Chromecast device has been found');
+	}
+
+	function sendMessage() {
+		if(window.session != null) {
+			var message = {
+				text: $("#Message").val()
+			};
+
+			window.session.sendMessage(application_namespace, message, onSuccess, onError);
+		}
+	}
+
+	function onInitSuccess() {
+		console.log('Cast API initialized');
+	}
+
+
+	function onSuccess() {
+		console.log('Cast API Worked');
+	}
+
+	function onError(e) {
+		console.log('Cast API Error:' + e);
+	}
+
+	initializeCastApi = function() {
+	  var sessionRequest = new chrome.cast.SessionRequest(applicationId);
+	  var apiConfig = new chrome.cast.ApiConfig(sessionRequest,
+	    sessionListener,
+	    receiverListener);
+	  chrome.cast.initialize(apiConfig, onInitSuccess, onError);
+	};
+
+	function onRequestSessionSuccess(s) {
+		console.log('Cast session is now available');
+		window.session = s;
+		$("#ConnectedControls").show();
+	}
+
+	function connect() {
+		chrome.cast.requestSession(onRequestSessionSuccess, onError);
+	}
+
+	$(function() {
+		$("#Connect").hide().click(connect);
+
+		$("#ConnectedControls").hide();
+		$("#Send").click(sendMessage);
+
+		if (!chrome.cast || !chrome.cast.isAvailable) {
+		  setTimeout(initializeCastApi, 1000);
+		}
+	});
+</script>
+</html>

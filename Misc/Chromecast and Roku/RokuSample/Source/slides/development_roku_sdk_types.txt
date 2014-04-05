@@ -1,0 +1,10 @@
+Roku SDK Types
+
+- All Roku SDK types start with "ro", e.g. "roParagraphScreen".
+
+- These types then implement interfaces, e.g. "ifParagraphScreen".  
+
+- Type documentation is general
+- Interface documentation is method level
+
+- SDK Objects are created with CreateObject("roObjectType")

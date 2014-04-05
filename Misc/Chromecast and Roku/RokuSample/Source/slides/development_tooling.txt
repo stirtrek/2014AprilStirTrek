@@ -1,0 +1,5 @@
+Development Tools
+
+- Text editor (Sublime Text has a syntax highlighter plugin available)
+- Web browser
+- Roku developer account (free)

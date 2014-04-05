@@ -1,0 +1,6 @@
+Structure of a Channel
+
+A channel is a ZIP file containing
+- A Manifest file describing the channel
+- Images, text and other resources
+- Brightscript Files

@@ -1,0 +1,7 @@
+What is a Channel?
+
+- A small app that is downloaded to the individual Roku boxes and runs there.
+
+- (Usually) associated with a content provider like Netflix, Hulu, HBO, etc.  
+
+- Self-contained

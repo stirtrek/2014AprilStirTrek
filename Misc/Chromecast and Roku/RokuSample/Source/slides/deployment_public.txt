@@ -1,0 +1,9 @@
+Public Deployments
+
+Roku Channel Submission requires:
+- Channel Name & Description
+- Screenshots - created through the web interface, under Utilities
+- Signed package file
+
+Roku reviews public channels for correctness and appropriateness before publishing.  
+They have content guidelines.

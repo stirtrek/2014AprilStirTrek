@@ -1,0 +1,7 @@
+Private Channels
+
+- No approval process
+- Added through the web by going to and add URL with a developer-generated identifier.
+- Testing, quiet roll outs, or non-public channels.
+- Can be promoted to Public later
+- This portion of the presentation is available at http://bit.ly/rokudev

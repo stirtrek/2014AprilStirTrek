@@ -1,0 +1,19 @@
+lcd sender
+cd chromecast_sender
+put sender.html
+lcd ../receiver
+cd ../chromecast
+pwd
+put receiver.html
+cd assets/js
+lcd assets/js
+pwd
+put receiver.js
+cd ../css
+lcd ../css
+pwd
+put main.css
+cd ../img
+lcd ../img
+mput *.png
+mput *.jpg
